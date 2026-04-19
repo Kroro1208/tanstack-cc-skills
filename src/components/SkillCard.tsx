@@ -26,7 +26,10 @@ function SkillCard({ name }: SkillCardProps) {
 				type="button"
 				onClick={() => setLiked((current) => !current)}
 			>
-				<Heart className={liked ? "fill-current text-(--lagoon-deep)" : ""} size={18} />
+				<Heart
+					className={liked ? "fill-current text-(--lagoon-deep)" : ""}
+					size={18}
+				/>
 			</button>
 		</article>
 	);
